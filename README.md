@@ -4,6 +4,7 @@
 <h1> 와이어프레임 </h1>
 ![메인화면](https://user-images.githubusercontent.com/56163157/153747586-0603e1bf-aba0-4ce0-aa74-9b2781ce011b.JPG)
 
+
 <h1> 구성 </h1>
 
 
