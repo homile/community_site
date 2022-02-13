@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>게임정보의 가방 InvenTory</title>
+<link href="style2.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+</head>
+
+<body>
+<div class="topbg">
+  <header>
+    <div class="toplogo"><a href="Inventory_Main.html"><img src="image/InvenTory_.jpg" width="200" height="150" alt=""/></a> </div>
+    <div class="advertising"><a href="https://www.youtube.com/channel/UCYn7kqUOej9wv0ZNt8Hux0w"><img src="image/메인광고1.jpg" width="453" height="150" alt=""/></a></div>
+	<div class="topmini">
+    	<ul>
+    	  <li><a href="Login.html">로그인</a></li>
+    	  <li><a href="Sign_Up.html">회원가입</a></li>
+    	  <li><a href="#">마이페이지</a></li>
+    	  <li><a href="#">고객센터</a></li>
+  	  </ul>
+    </div>
+	<nav class="topmenu">
+	  <ul>
+	    <li><a href="Inventory_Company.html"><img src="image/회사소개.jpg" alt="" width="142" height="41" usemap="#Map"/>
+	    </a></li>
+	    <li><a href="#"><img src="image/게임뉴스.jpg" width="142" height="41" alt=""/></a></li>
+	    <li><a href="#"><img src="image/게임정보.jpg" width="142" height="41" alt=""/></a>
+		  <ul>
+        <li><a href="#">PC게임</a></li>
+        <li><a href="#">PS게임</a></li>
+        <li><a href="#">Xbox게임</a></li>
+        <li><a href="#">NintendoSwitch게임</a></li>
+        </ul>
+		</li>
+	    <li><a href="#"><img src="image/자유게시판.jpg" width="142" height="41" alt=""/></a>
+		<ul>
+        <li><a href="#">컴퓨터자랑</a></li>
+        <li><a href="#">컴퓨터질문</a></li>
+        <li><a href="#">타임어택 영상</a></li>
+        </ul>
+		</li>
+	    <li><a href="#"><img src="image/내가바로기자.jpg" width="142" height="41" alt=""/></a></li>
+	    <li><a href="#"><img src="image/PC게임.jpg" width="142" height="41" alt=""/></a>
+		<ul>
+        <li><a href="Inventory_PCMaple.html">메이플스토리</a></li>
+        <li><a href="#">워프레임</a></li>
+        <li><a href="#">배틀그라운드</a></li>
+        </ul>
+		</li>
+		<li><a href="#"><img src="image/모바일게임.jpg" width="142" height="41" alt=""/></a>
+		<ul>
+        <li><a href="#">메이플스토리M</a></li>
+        <li><a href="#">브롤스타즈</a></li>
+        <li><a href="#">리니지M</a></li>
+        </ul>
+		</li>
+		<li><a href="#"><img src="image/E-Sports일정.jpg" width="142" height="41" alt=""/></a></li>
+		<li><a href="#"><img src="image/고객센터.jpg" width="142" height="41" alt=""/></a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+<div class="container">
+	<div class="company">
+	  <div id="Tabs1">
+	    <ul>
+	      <li><a href="#tabs-1">회사소개</a></li>
+	      <li><a href="#tabs-2">연혁</a></li>
+	      <li><a href="#tabs-3">운영진</a></li>
+        </ul>
+	    <div id="tabs-1">
+	      <p><img src="image/회사소개(이미지)2.jpg" width="1240" height="561" alt=""/></p>
+        </div>
+	    <div id="tabs-2">
+	      <p>2019년 09월 - 홈페이지 제작 돌입<br>
+			2019년 10월 - 홈페이지 배너 및 디자인 작업<br>
+			2019년 10월 - 홈페이지 제작 및 테스트 작업 시작<br>
+			2019년 11월 - 서브 페이지 작업 시작<br>
+			</p>
+        </div>
+	    <div id="tabs-3">
+	      <p>코딩 및 테스트 : 21614038 조민우<br> 
+		  코딩 및 디자인 : 21614015 박준오</p>
+        </div>
+      </div>
+	</div>
+	  
+<footer id="footer">
+      <div class="container">
+                <div class="footer">
+                    <ul>
+                        <li><a href="Inventory_Company.html">회사소개</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">운영원칙</a></li>
+                        <li><a href="#"><strong>개인정보취급방침</strong></a></li>
+                        <li><a href="#">판매정책</a></li>
+                        <li><a href="#">고객센터</a></li>
+                    </ul>
+                    <address>
+                        Copyright ©
+                        <a href="Inventory_Main.html"><strong>Inventory</strong></a>
+                        All Rights Reserved.
+                    </address>
+                </div>
+    </div>
+  </footer>
+</div>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+</body>
+</html>
